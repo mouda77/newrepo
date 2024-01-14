@@ -10,7 +10,7 @@ pipeline {
 
 stage('validate') { 
       steps {   
-        sh 'liquibase validate --changeLogFile=my_app-wrapper.xml'    
+        sh 'liquibase validate  --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=my_app-wrapper.xml --username=newuser --password=P@ssw0rd'    
       } 
     }
 
