@@ -22,6 +22,3 @@ create table company (
 				
 --changeset other.dev:3 labels:v0 context:all
 alter table person add column country varchar(2)
-
---changeset other.dev:4 labels:v0 context:all
-drop table person;
