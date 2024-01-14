@@ -22,3 +22,8 @@ create table company (
 				
 --changeset other.dev:3 labels:v0 context:all
 alter table person add column country varchar(2)
+
+--StartRollback
+DROP TABLE company;
+DROP TABLE person;
+--End Rollback
