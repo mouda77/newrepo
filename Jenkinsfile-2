@@ -8,6 +8,12 @@ pipeline {
       }
     }
 
+stage('validate ') {       
+      steps {   
+        sh 'liquibase validate  --changelog-file=liquibase.checks-settings.conf'    
+      } 
+    }
+
 stage('checks') {       
       steps {   
         sh 'liquibase checks show --checks-settings-file=liquibase.checks-settings.conf'    
