@@ -20,8 +20,7 @@ create table company1 (
 	city varchar(30)
 )
 				
---changeset other.dev:3 labels:v0 context:all
-alter table person1 add column country varchar(2)
+
 
 --rollback DROP table company1;
 --rollback DROP table person1;
