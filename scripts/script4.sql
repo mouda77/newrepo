@@ -9,7 +9,7 @@ create table person1 (
 	address1 varchar(50),
 	address2 varchar(50), 
 	city varchar(30)
-)
+);
 				
 --changeset your.name:2 labels:v0 context:all
 create table company1 (
@@ -18,7 +18,7 @@ create table company1 (
 	address1 varchar(50),
 	address2 varchar(50),
 	city varchar(30)
-)
+);
 				
 
 --rollback DROP table company1;
