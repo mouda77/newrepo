@@ -16,7 +16,7 @@ stage('validate') {
 
 stage('checks') {       
       steps {   
-        sh 'liquibase checks show --checks-settings-file=liquibase.checks-settings.conf'    
+        sh 'liquibase checks run --checks-settings-file=liquibase.checks-settings.conf'    
       } 
     }
 
