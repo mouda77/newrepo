@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset your_username:unique_id_for_changeset
+--changeset mohamed.ouda:unique_id_for_changeset
 --comment: Description of your changeset
 
 create table personnnnn (
@@ -11,7 +11,7 @@ create table personnnnn (
 	city varchar(30)
 );
 				
---changeset your.name:2 labels:v0 context:all
+--changeset mohamed.ouda:2 labels:v0 context:all
 create table companyyyy (
 	id int primary key,
 	name varchar(50) not null,
