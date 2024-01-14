@@ -4,8 +4,12 @@ databaseChangeLog:
       author: mohamed.ouda
       failOnError: false
       changes:
-      rollback:
+            rollback:
         - sql:
             sql: drop table users;
+        - sql:
+            sql: drop table customers;
+            
+
 
 
