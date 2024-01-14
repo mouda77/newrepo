@@ -21,7 +21,4 @@ create table companyyyy (
 );
 				
 
---rollback DROP table companyyyy;
---rollback DROP table personnnnn;
-
 
