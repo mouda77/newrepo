@@ -1,7 +1,8 @@
 --liquibase formatted sql
+
 --changeset your_username:unique_id_for_changeset
-				
---changeset your.name:1 labels:v0 context:all
+--comment: Description of your changeset
+
 create table person (
 	id int primary key,
 	name varchar(50) not null,
