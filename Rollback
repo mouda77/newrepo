@@ -4,13 +4,13 @@ pipeline {
   stages {        
     stage('Status') {                                        
       steps {   
-        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar status --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=changelog.xml --username=newuser --password=P@ssw0rd'
+        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar status --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=Changelog.xml --username=newuser --password=P@ssw0rd'
       }
     }
 
 stage('Rollback') { 
       steps {   
-        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar rollback  --tag=version_1.3 --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=changelog.xml --username=newuser --password=P@ssw0rd'    
+        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar rollback  --tag=version_1.3 --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=Changelog.xml --username=newuser --password=P@ssw0rd'    
       } 
     }
  
