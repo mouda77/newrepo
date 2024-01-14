@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset mohamed.ouda:10
+--changeset mohamed.ouda
 --comment: Description of your changeset
 
 create table users (
