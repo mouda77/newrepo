@@ -6,7 +6,6 @@ databaseChangeLog:
       changes:
       rollback:
         - sql:
-            sql: drop table companyyyy;
-        - sql:
-            sql: drop table personnnnn;
+            sql: drop table users;
+
 
