@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: 22
+      author: rs
+      failOnError: false
+      changes:
+      rollback:
+        - sql:
+            sql: drop table companyyyy;
+        - sql:
+            sql: drop table personnnnn;
+

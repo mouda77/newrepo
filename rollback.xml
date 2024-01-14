@@ -1,7 +1,0 @@
-<changeSet id="your_change_set_id" author="mohamed.ouda">   
-<rollback>
-<sql>
-DROP TABLE personnnnn;  
-</sql>    
-</rollback>
-</changeSet>
