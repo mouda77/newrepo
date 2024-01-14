@@ -8,9 +8,9 @@ pipeline {
       }
     }
 
-stage('validate ') {       
+stage('validate') { 
       steps {   
-        sh 'liquibase validate  --changelog-file=liquibase.checks-settings.conf'    
+        sh 'liquibase validate --changelog-file=liquibase.checks-settings.conf'    
       } 
     }
 
