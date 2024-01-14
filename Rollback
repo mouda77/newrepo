@@ -5,7 +5,7 @@ pipeline {
 
 stage('Rollback') { 
       steps {   
-        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar rollback  --tag=version_1.9 --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=rollback.xml --username=newuser --password=P@ssw0rd'    
+        sh 'liquibase --classpath=/var/lib/mysql/mysql-connector-j-8.0.31.jar rollback  --tag=version_1.9 --url=jdbc:mysql://10.3.1.18:3306/liquibase --changeLogFile=rollback.yml --username=newuser --password=P@ssw0rd'    
       } 
     }
  
