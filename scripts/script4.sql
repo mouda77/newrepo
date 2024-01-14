@@ -3,7 +3,7 @@
 --changeset your_username:unique_id_for_changeset
 --comment: Description of your changeset
 
-create table person (
+create table person1 (
 	id int primary key,
 	name varchar(50) not null,
 	address1 varchar(50),
@@ -12,7 +12,7 @@ create table person (
 )
 				
 --changeset your.name:2 labels:v0 context:all
-create table company (
+create table company1 (
 	id int primary key,
 	name varchar(50) not null,
 	address1 varchar(50),
@@ -23,6 +23,6 @@ create table company (
 --changeset other.dev:3 labels:v0 context:all
 alter table person add column country varchar(2)
 
---rollback DROP table company;
---rollback DROP table person;
+--rollback DROP table company1;
+--rollback DROP table person1;
 
