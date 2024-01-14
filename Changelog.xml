@@ -14,7 +14,7 @@
        <changeSet  id="11"  author="Mohamed_Ouda">   <tagDatabase  tag="version_2.0"/> 
        
        </changeSet> 
-                    <include file="scripts/script5.sql" relativeToChangelogFile="true"/>
+                    <include file="scripts/script6.sql" relativeToChangelogFile="true"/>
      
  
 
