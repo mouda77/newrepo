@@ -11,8 +11,9 @@
                         http://www.liquibase.org/xml/ns/dbchangelog 
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
        <changeSet  id="3"  author="mo">   <tagDatabase  tag="version_1.3"/>
-    </changeSet> 
-     <include file="scripts/script3.sql" relativeToChangelogFile="true"/>
+               <include file="scripts/script3.sql" relativeToChangelogFile="true"/>
+       </changeSet> 
+ 
 
  
     
